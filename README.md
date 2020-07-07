@@ -10,3 +10,6 @@ This program contains of three code files:
 * main.py
 * front.py
 * back.py
+
+## Documentation 
+Documentation can be found in docs/build/html/index.html
