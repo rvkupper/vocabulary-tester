@@ -6,6 +6,11 @@
 Welcome to vocabulary-tester's documentation!
 =============================================
 
+vocabulary-tester is a program to test your vocabulary based on lists with
+words you can import yourself! 
+
+Below, you can find the documentation of the source files.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -14,9 +19,9 @@ Welcome to vocabulary-tester's documentation!
  
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Indices and tables
+.. ==================
+.. 
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
