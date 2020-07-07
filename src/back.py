@@ -31,6 +31,10 @@ def check(d: dict, key: str, ans: str, case_sensitive: bool = True) -> bool:
     Traceback (most recent call last):
     ...
     AssertionError: d is empty, should contain dictionary object.
+    >>> check({'geel': 'yellow', 'rood': 'red'}, 'blauw', 'some answer')
+    Traceback (most recent call last):
+    ...
+    AssertionError: key not in d.
     """
     assert d, "d is empty, should contain dictionary object."
     assert key in d, "key not in d."
