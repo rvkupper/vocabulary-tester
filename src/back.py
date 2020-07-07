@@ -9,18 +9,18 @@ def check(d: dict, key: str, ans: str, case_sensitive: bool = True) -> bool:
     """Check whether given answer ans is the correct value of key in 
     dictionary d with case sensitivity option. 
     
-    :param:
-    d: dictionary with words to be tested
-    key: current word on trial
-    ans: given answer by user
+    :param d: dictionary with words to be tested.
+    :param key: current word on trial.
+    :param ans: given answer by user.
+    :param case_sensitive: option for case sensitivity, defaults to True.
     
-    :return:
-    Returns boolean whether answer was correct.
+    :raises AssertionError: if d is empty.
+    :raises AssertionError: if key not in d.
     
-    :exceptions:
-    Raises assertion error if d is empty.
-    Raises assertion error if key not in d.
+    :return: Returns boolean whether answer was correct.
+    :rtype: Boolean.
     
+    :examples:
     >>> check({'geel': 'yellow', 'rood': 'red'}, 'geel', 'yellow')
     True
     >>> check({'Nederland': 'Netherlands', 'Duitsland': 'Germany'}, 'Nederland', 'netherlands')

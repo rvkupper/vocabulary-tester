@@ -2,7 +2,7 @@
 Program to test yourself
 
 ## Usage
-Use this program to to test if you have studied your vocabulary words enough. 
+Use this program to test if you have studied your vocabulary words enough. 
 To start, run the main file.
 
 ## Structure
